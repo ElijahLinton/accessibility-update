@@ -46,8 +46,10 @@ a {
     text-decoration: none;
 }
 
+/* Enlarged paragraph text to make content more visible to the user  */
+
 p {
-    font-size: 16px;
+    font-size: 30px;
 }
 
 .hero {
@@ -197,4 +199,11 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+/*I have changed the defualt scroll-behavior in order to help the webpage become more comprehensive to the user*/
+html {
+
+  scroll-behavior:smooth;
+
 }
