@@ -222,13 +222,53 @@ html {
 @media only screen and (max-width: 940px) {
     .benefits {
     margin-top: 100px;
-    margin-right: 0px;
-    padding: 20px;
-    clear: both;
-    float: left;
+    margin-right: 200px;
+    padding: 18px;
     width: 50%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #1b6288;
 }
+}
+
+@media only screen and (max-width: 1016px){
+
+    ul{font-size:17px;}
+    .header h1{font-size:40px;}
+}
+
+@media only screen and (max-width:881px){
+
+    ul{font-size:13px;}
+    .header h1{font-size:30px;}
+}
+
+@media only screen and (max-width: 763px) {
+    p {font-size:15px; margin-top:-20px;}
+  .content h2{font-size:20px; margin-bottom:-30px;}
+    ul{font-size: 9px;}
+    p, h2, ul{
+        display:flex; 
+        flex-wrap:wrap;}
+    
+}
+
+@media only screen and (max-width:540px){
+
+    ul{font-size:8px;}
+    .header h1{font-size:20px;}
+    .header{display:flex;
+            flex-wrap: wrap;}
+
+    .content h2{font-size:15px;} 
+    .content p{font-size:10px;
+    margin-top:-20px;}
+    .hero{height:400px;}
+    .online-reputation-management,
+     .search-engine-optimization,
+     .social-media-marketing
+     .benefits
+      {background-color:#00436d;}
+      body{background-color:#a5a5a5}
+
 }
