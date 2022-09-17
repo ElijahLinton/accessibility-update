@@ -243,15 +243,7 @@ html {
     .header h1{font-size:30px;}
 }
 
-@media only screen and (max-width: 763px) {
-    p {font-size:15px; margin-top:-20px;}
-  .content h2{font-size:20px; margin-bottom:-30px;}
-    ul{font-size: 9px;}
-    p, h2, ul{
-        display:flex; 
-        flex-wrap:wrap;}
-    
-}
+
 
 @media only screen and (max-width:540px){
 
@@ -264,11 +256,13 @@ html {
     .content p{font-size:10px;
     margin-top:-20px;}
     .hero{height:400px;}
-    .online-reputation-management,
-     .search-engine-optimization,
-     .social-media-marketing
+    
      .benefits
       {background-color:#00436d;}
       body{background-color:#a5a5a5}
+      .social-media-marketing{background-color: #2d4552;} 
 
+      .search-engine-optimization{background-color: #003c5a;}
+
+      .online-reputation-management{background-color:#274e63}
 }
