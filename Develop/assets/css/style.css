@@ -70,14 +70,16 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*changed display-flex from display-inline-block*/
 .content {
     width: 75%;
-    display: inline-block;
+    display:flex;
     margin-left: 20px;
+    flex-flow:column;
 }
 
 .benefits {
+    margin-top:-500px;
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -117,23 +119,23 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*enlarged all images to make it more visible for the user*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 200px;
 }
 
 .benefit-brand img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 200px;
 }
 
 .benefit-cost img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 200px;
 }
 
 .search-engine-optimization {
@@ -205,5 +207,68 @@ p {
 html {
 
   scroll-behavior:smooth;
+
+}
+/*I have added a media all feature to fix device size bug the text on the blue boxes would spill out of them so i made the text smaller once it reaches a certain size*/
+@media only screen and (max-width: 1473px) {
+    p {font-size:25px;}
+    img{width:175px;}
+}
+
+@media only screen and (max-width: 1041px) {
+    p {font-size:20px;}
+}
+
+@media only screen and (max-width: 940px) {
+    .benefits {
+    margin-top: 100px;
+    margin-right: 200px;
+    padding: 18px;
+    width: 50%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #1b6288;
+}
+}
+
+@media only screen and (max-width: 1016px){
+
+    ul{font-size:17px;}
+    .header h1{font-size:40px;}
+}
+
+@media only screen and (max-width:881px){
+
+    ul{font-size:13px;}
+    .header h1{font-size:30px;}
+}
+
+@media only screen and (max-width: 763px) {
+    p {font-size:15px; margin-top:-20px;}
+  .content h2{font-size:20px; margin-bottom:-30px;}
+    ul{font-size: 9px;}
+    p, h2, ul{
+        display:flex; 
+        flex-wrap:wrap;}
+    
+}
+
+@media only screen and (max-width:540px){
+
+    ul{font-size:8px;}
+    .header h1{font-size:20px;}
+    .header{display:flex;
+            flex-wrap: wrap;}
+
+    .content h2{font-size:15px;} 
+    .content p{font-size:10px;
+    margin-top:-20px;}
+    .hero{height:400px;}
+    .online-reputation-management,
+     .search-engine-optimization,
+     .social-media-marketing
+     .benefits
+      {background-color:#00436d;}
+      body{background-color:#a5a5a5}
 
 }
