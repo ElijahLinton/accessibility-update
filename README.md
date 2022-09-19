@@ -17,7 +17,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 n/a
 
 ## Usage
-want an accessible and convenient webpage that leads you to the information you are interested in learning? this is definitely the page you want to use. you can either click on the anchors with your mouse or with tab then enter.You can read through each of the information as you navigate through the webpage if you wish to go back up and choose a different topic simply press tab and enter again.
+want an accessible and convenient webpage that leads you to the information you are interested in learning? this is definitely the page you want to use. you can either click on the anchors with your mouse or with tab then enter.You can read through each of the information as you navigate through the webpage if you wish to go back up and choose a different topic simply press tab and enter again.This webpage is accessible to most devices as well the text on the page is also in a bigger font to ensurer the user can comprehend the content.
 
 ## Credits
 
